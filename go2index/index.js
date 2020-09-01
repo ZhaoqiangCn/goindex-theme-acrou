@@ -4,9 +4,9 @@ var authConfig = {
   version: "1.1.2", // 程序版本
   theme: "acrou",
   // 强烈推荐使用自己的 client_id 和 client_secret
-  client_id: "202264815644.apps.googleusercontent.com",
-  client_secret: "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
-  refresh_token: "", // 授权 token
+  client_id: "594514755657-9u02e6dv74pqqolt6erbtlp985siuqke.apps.googleusercontent.com",
+  client_secret: "USt_oc9dOztmJZ8dmitRNURl",
+  refresh_token: "1//0e026J0ti9coACgYIARAAGA4SNwF-L9IrWIrK0UM8RHb1bGGb5eyX1-Dx9zASrt1DxxRlIpnaF06WCtp8rDivpyhZ7GA68FTyZCc", // 授权 token
   /**
    * 设置要显示的多个云端硬盘；按格式添加多个
    * [id]: 可以是 团队盘id、子文件夹id、或者"root"（代表个人盘根目录）；
@@ -19,25 +19,38 @@ var authConfig = {
    *       如果要保护文件链接，需要将 protect_file_link 设置为 true，此时如果要进行外部播放等操作，需要将 host 替换为 user:pass@host 的 形式
    * 不需要 Basic Auth 的盘，保持 user 和 pass 同时为空即可。（直接不设置也可以）
    * 【注意】对于id设置为为子文件夹id的盘将不支持搜索功能（不影响其他盘）。
-   */
+    */
   roots: [
     {
-      id: "",
-      name: "TeamDrive",
-      pass: "",
+      id: "0AKLjS4xLMzByUk9PVA",
+      name: "New-Studio",
+      user: "zhaoqiang",
+      pass: "xx0612"
+    },   
+    {
+      id: "0ABYHAXGsmbVNUk9PVA",
+      name: "New-Uncensored",
+      user: "zhaoqiang",
+      pass: "xx0612"
     },
     {
-      id: "root",
-      name: "PrivateDrive",
-      user: "",
-      pass: "",
-      protect_file_link: true,
+      id: "0ACbYgoIbyYDWUk9PVA",
+      name: "New-Alphabet",
+      user: "zhaoqiang",
+      pass: "xx0612"
     },
     {
-      id: "",
-      name: "folder1",
-      pass: "",
-    },
+      id: "0APJ4jELxsR-wUk9PVA",
+      name: "DriveSpaceSH",
+      user: "zhaoqiang",
+      pass: "xx0612"
+    }, 
+    {
+      id: "0AOSIkPt558blUk9PVA",
+      name: "DriveShare",
+      user: "zhaoqiang",
+      pass: "xx0612"
+    }, 
   ],
   default_gd: 0,
   /**
