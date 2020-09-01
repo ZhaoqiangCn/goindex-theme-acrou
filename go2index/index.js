@@ -24,32 +24,32 @@ var authConfig = {
     {
       id: "0AKLjS4xLMzByUk9PVA",
       name: "New-Studio",
-      user: "zhaoqiang",
-      pass: "xx0612"
+      user: "",
+      pass: ""
     },   
     {
       id: "0ABYHAXGsmbVNUk9PVA",
       name: "New-Uncensored",
-      user: "zhaoqiang",
-      pass: "xx0612"
+      user: "",
+      pass: ""
     },
     {
       id: "0ACbYgoIbyYDWUk9PVA",
       name: "New-Alphabet",
-      user: "zhaoqiang",
-      pass: "xx0612"
+      user: "",
+      pass: ""
     },
     {
       id: "0APJ4jELxsR-wUk9PVA",
       name: "DriveSpaceSH",
-      user: "zhaoqiang",
-      pass: "xx0612"
+      user: "",
+      pass: ""
     }, 
     {
       id: "0AOSIkPt558blUk9PVA",
       name: "DriveShare",
-      user: "zhaoqiang",
-      pass: "xx0612"
+      user: "",
+      pass: ""
     }, 
   ],
   default_gd: 0,
